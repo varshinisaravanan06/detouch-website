@@ -1,0 +1,257 @@
+/* Google Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #1C1C1C;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+header h1,
+header h3{
+    color: #012C22;   /* dark green */
+}
+header {
+    background: #FFFFFF;
+    padding: 20px 0;
+}
+
+/* Hero Section */
+.hero {
+    background: #012C22;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.hero .btn {
+    background: #4D0218;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.hero .btn:hover {
+    background: #012C22;
+}
+
+/* Services Preview */
+.services-preview {
+    padding: 80px 0;
+    text-align: center;
+}
+.services-preview h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 40px;
+    background: #012C22;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.services-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #012C22;
+    padding: 30px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card h3 {
+    background: #B9F8CF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+}
+.emoji{
+    -webkit-text-fill-color: initial;
+    color: initial;
+    font-size: 1.3em;
+}
+.card p {
+    color: white;
+    font-size: 14px;
+}
+
+
+/* Footer */
+footer {
+    background: #012C22;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    margin-top: 50px;
+}
+/* ===== SERVICES PAGE TEXT COLOR FIX ===== */
+
+/* service card kulla irukka ella text white */
+/* ===== SERVICES LIST FULL DARK GREEN BACKGROUND ===== */
+/* ===== OUR SERVICES HEADING ===== */
+
+.services-title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+
+.services-page {
+    background-color: #012C22;   /* full page dark green */
+}
+
+/* service section wrapper */
+.services {
+    background-color: #012C22;
+    padding: 60px 0;
+}
+
+/* individual service cards */
+.service-card {
+    background-color: #04332B;   /* slightly different dark green */
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+/* text inside services */
+.service-card h2,
+.service-card h3,
+.service-card p,
+.service-card ul li {
+    color: #ffffff;   /* white text */
+}
+
+.navbar {
+    background-color: #ffffff;   /* white header */
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between; /* logo left, links right */
+    align-items: center;
+}
+
+/* ===== NAV LINKS FIX ===== */
+/* ===== FINAL HEADER / NAVBAR ===== */
+
+.navbar {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LEFT SIDE : logo + headings */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-logo img {
+    width: 60px;
+}
+
+/* Headings */
+.header-title h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin: 0;
+    color: #012C22;
+}
+
+.header-title h3 {
+    font-size: 14px;
+    margin-top: 4px;
+    color: #444;
+}
+
+/* RIGHT SIDE : nav links */
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #012C22;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.nav-links a:hover {
+    color: #4D0218;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;              /* 👈 images naduvila gap */
+    padding: 20px 0;
+}
+section img {
+    margin: 0 60px;   /* images naduvila gap */
+}
+.whatsapp-btn {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;
+}
+.certificates {
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;
+    gap: 40px;                 /* image gap */
+    flex-wrap: wrap;           /* small screen-la keela pogum */
+    margin: 40px auto;
+}
+
+.certificates img {
+    width: 220px;              /* size adjust panna lam */
+    height: auto;
+}
+

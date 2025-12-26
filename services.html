@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Services | De Touch</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/flower.png') }}"  width="100px;">
+</head>
+<header>
+  <div class="nav-container">
+
+    <div class="header-left">
+      <div class="header-logo">
+        <img src="{{ url_for('static', filename='images/flower.png') }}" alt="flower" width="200px;">
+      </div>
+
+      <div class="header-title">
+        <h1>DE TOUCH</h1>
+        <h3>ANNA POORANI MAKEOVER</h3>
+      </div>
+    </div>
+
+    <nav class="nav-links">
+      <a href="/">Home</a>
+      <a href="/services">Services</a>
+      <a href="/about">About</a>
+      <a href="/gallery">Gallery</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<section class="services">
+    <h1 class="services-title">Our Services</h1>
+  <div class="service-card">
+    <h2>Threading
+      <img src="{{ url_for('static', filename='images/thread.gif') }}" alt="thread" width="50px;">
+    </h2>
+    <ul>
+      <li>Eyebrows</li>
+      <li>Upper Lips</li>
+      <li>Full Face</li>
+    </ul>
+  </div>
+  <!-- SKIN -->
+  <div class="service-card">
+    <h2>Skin Care
+     <img src="{{ url_for('static', filename='images/skin.gif') }}" alt="skin" width="50px;">
+    </h2>
+    <ul>
+      <li>Clean Up</li>
+      <li>Dermaplaning</li>
+      <li>Facial / Advanced / Bridal Facial</li>
+      <li>Glass Skin Facial</li>
+      <li>Anti Aging Facial</li>
+      <li>De-tan Facial</li>
+      <li>Neck / Hand / Leg / Underarm De-tan</li>
+      <li>Hydra Facial</li>
+      <li>Under Eye Treatment</li>
+      <li>Chemical Peel</li>
+      <li>Lip Darkness Reduction</li>
+    </ul>
+  </div>
+  <!-- HAIR -->
+  <div class="service-card">
+    <h2>Hair Care
+      <img src="{{ url_for('static', filename='images/haircare.gif') }}" alt="haircare" width="50px;">
+    </h2>
+    <ul>
+      <li>Hair Wash</li>
+      <li>Blow Dry Set</li>
+      <li>Hair Cut (U / V / S)</li>
+      <li>Layer / Feather / Step Cut</li>
+    </ul>
+  </div>
+
+  <!-- HAIR COLOURING -->
+  <div class="service-card">
+    <h2>Hair Colouring
+     <img src="{{ url_for('static', filename='images/color.gif') }}" alt="color" width="50px;">
+    </h2>
+    <ul>
+      <li>Root Touch Up</li>
+      <li>Grey Coverage</li>
+      <li>Highlights (Per Strike)</li>
+      <li>Low Lights (Per Strike)</li>
+      <li>Fashion Colour</li>
+      <li>Ombre</li>
+      <li>Balayage</li>
+    </ul>
+  </div>
+
+  <!-- HAIR TREATMENTS -->
+  <div class="service-card">
+    <h2>Hair Treatments
+      <img src="{{ url_for('static', filename='images/hairtree.gif') }}" alt="hairtree" width="50px;">
+    </h2>
+    <ul>
+      <li>Hair Oil Massage</li>
+      <li>Straightening (Temporary / Permanent)</li>
+      <li>Smoothening (Permanent)</li>
+      <li>Perming</li>
+      <li>Rebonding</li>
+      <li>Keratin / Botox</li>
+      <li>Hair Spa</li>
+      <li>Anti Dandruff Treatment</li>
+      <li>Anti Hairfall Treatment</li>
+      <li>Anti Frizz Control Treatment</li>
+    </ul>
+    <p>(Price depends on hair length)</p>
+  </div>
+
+  <!-- WAXING -->
+  <div class="service-card">
+    <h2>Waxing
+      <img src="{{ url_for('static', filename='images/wax.gif') }}" alt="wax" width="50px;">
+    </h2>
+    <ul>
+      <li>Eyebrows</li>
+      <li>Upper Lips</li>
+      <li>Full Face</li>
+      <li>Underarm</li>
+      <li>Half / Full Hand</li>
+      <li>Half / Full Leg</li>
+      <li>Full Body</li>
+    </ul>
+  </div>
+  <!-- NAIL CARE -->
+  <div class="service-card">
+    <h2>Nail Care
+      <img src="{{ url_for('static', filename='images/nail.gif') }}" alt="nail" width="50px;">
+    </h2>
+    <ul>
+      <li>Basic Manicure</li>
+      <li>Basic Pedicure</li>
+      <li>Advance Manicure</li>
+      <li>Advance Pedicure</li>
+      <li>D-tan (Hand / Leg)</li>
+      <li>Natural Nail with Gel Polish</li>
+      <li>Nail Extensions with Gel Polish</li>
+      <li>Nail Art (Start From)</li>
+    </ul>
+  </div>
+  <!-- MAKEOVER -->
+  <div class="service-card">
+    <h2>Make Over
+      <img src="{{ url_for('static', filename='images/makeover.gif') }}" alt="makeover" width="50px;">
+    </h2>
+    <ul>
+      <li>Party / Guest Makeup</li>
+      <li>HD Makeup</li>
+      <li>Bridal Makeup</li>
+      <li>Reception Makeup</li>
+      <li>Engagement Makeup</li>
+      <li>Mehendi / Haldi Makeup</li>
+      <li>Pre & Post Wedding Shoot</li>
+      <li>Photoshoot / Portfolio Makeup</li>
+      <li>Maternity / Baby Shower Makeup</li>
+      <li>Corporate / Puberty Makeup</li>
+      <li>Dance / Stage Makeup</li>
+      <li>Waterproof / Matte / Glossy Makeup</li>
+      <li>Rental Bridal Jewellery</li>
+      <li>Flower Making</li>
+    </ul>
+  </div>
+<!-- OTHER SERVICES -->
+  <div class="service-card">
+    <h2>Other Services
+      <img src="{{ url_for('static', filename='images/mehandi.gif') }}" alt="mehandi" width="50px;">
+    </h2>
+    <ul>
+      <li>Wart Removal</li>
+      <li>Lice Nits Treatment</li>
+      <li>Saree Prepleating</li>
+      <li>Fish Spa</li>
+      <li>Stencil Mehendi Art</li>
+    </ul>
+  </div>
+</section>
+<footer class="footer">
+  <p>© 2025 De Touch – Anna Poorani Makeover</p>
+</footer>
+</html>

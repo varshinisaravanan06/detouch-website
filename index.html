@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DE TOUCH – Anna Poorani Makeover</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/flower.png') }}"  width="100px;">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="nav-container">
+    <div class="header-left">
+      <div class="header-logo">
+        <img src="{{ url_for('static', filename='images/flower.png') }}" alt="flower" width="200px;">
+      </div>
+<div class="header-title">
+          <h1>DE TOUCH</h1>
+          <h3>ANNA POORANI MAKEOVER</h3>
+      </div>
+    </div>
+
+    <nav class="nav-links">
+      <a href="{{ url_for('home') }}">Home</a>
+      <a href="{{ url_for('services') }}">Services</a>
+      <a href="{{ url_for('about') }}">About</a>
+      <a href="{{ url_for('gallery') }}">Gallery</a>
+      <a href="{{ url_for('contact') }}">Contact</a>
+    </nav>
+
+  </div>
+</header>
+<!-- ================= HERO SECTION ================= -->
+<section class="hero">
+  <div class="container">
+
+    <h2>
+      Glow & Shine with Our Beauty Services
+      <span class="flower-emoji">🌸</span>
+    </h2>
+
+    <p>
+      Experience professional care and elegant beauty treatments.
+    </p>
+
+    <a href="{{ url_for('contact') }}" class="btn">
+      Book Now
+    </a>
+
+  </div>
+</section>
+
+<!-- ================= SERVICES PREVIEW ================= -->
+<section class="services-preview">
+  <div class="container">
+
+    <h2>Our Services</h2>
+
+    <div class="services-cards">
+
+      <div class="card">
+        <h3>Facial & Skin Care
+          <img src="{{ url_for('static', filename='images/skiiii.gif') }}" alt="skiiii" width="40px;">
+        </h3>
+        <p>Glowing skin with premium facial treatments.</p>
+      </div>
+
+      <div class="card">
+        <h3>Hair Styling
+          <img src="{{ url_for('static', filename='images/hair.gif') }}" alt="hair" width="40px;">
+        </h3>
+        <p>Professional haircut, spa & styling services.</p>
+      </div>
+
+      <div class="card">
+        <h3>Bridal Makeup
+          <img src="{{ url_for('static', filename='images/OIP.JPG') }}" alt="OIP" width="40px;">
+        </h3>
+        <p>Elegant bridal makeover for your special day.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© 2025 Anna Poorani Makeover. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

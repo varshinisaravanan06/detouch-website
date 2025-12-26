@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - DE TOUCH</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/flower.png') }}"  width="100px;">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+  <div class="nav-container">
+
+    <div class="header-left">
+      <div class="header-logo">
+
+        <img src="{{ url_for('static', filename='images/flower.png') }}" alt="flower" width="200px;">
+      </div>
+
+      <div class="header-title">
+        <h1>DE TOUCH</h1>
+        <h3>ANNA POORANI MAKEOVER</h3>
+      </div>
+    </div>
+
+    <nav class="nav-links">
+      <a href="/">Home</a>
+      <a href="/services">Services</a>
+      <a href="/about">About</a>
+      <a href="/gallery">Gallery</a>
+      <a href="/contact">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Our Work & Transformations</h2>
+            <p>See some of our amazing beauty treatments and client makeovers.</p>
+        </div>
+    </section><br><br>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <img src="{{ url_for('static', filename='images/ped5.gif') }}" alt="ped5" width="100px;">
+                <img src="{{ url_for('static', filename='images/ped1.gif') }}" alt="ped1" width="100px;">
+                <img src="{{ url_for('static', filename='images/ped2.gif') }}" alt="ped2" width="100px;">
+                <img src="{{ url_for('static', filename='images/ped3.gif') }}" alt="ped3" width="100px;">
+                <img src="{{ url_for('static', filename='images/ped4.gif') }}" alt="ped4" width="100px;"><br><br><br>
+                <img src="{{ url_for('static', filename='images/galleryhair.gif') }}" alt="galleryhair" width="100px;">
+                <img src="{{ url_for('static', filename='images/hair2.gif') }}" alt="hair2" width="100px;">
+                <img src="{{ url_for('static', filename='images/hair3.gif') }}" alt="hair3" width="100px;">
+                <img src="{{ url_for('static', filename='images/hair4.gif') }}" alt="hair4" width="100px;">
+                <img src="{{ url_for('static', filename='images/hair5.gif') }}" alt="hair5" width="100px;"><br><br><br>
+                <img src="{{ url_for('static', filename='images/galleryfacial.gif') }}" alt="galleryfacial" width="100px;">
+                <img src="{{ url_for('static', filename='images/face2.gif') }}" alt="face2" width="100px;">
+                <img src="{{ url_for('static', filename='images/face3.gif') }}" alt="face3" width="100px;">
+                <img src="{{ url_for('static', filename='images/face4.gif') }}" alt="face4" width="100px;">
+                <img src="{{ url_for('static', filename='images/face5.gif') }}" alt="face5" width="100px;"><br><br><br>
+                <img src="{{ url_for('static', filename='images/gallerymakeup.gif') }}" alt="gallerymakeup" width="100px;">
+                <img src="{{ url_for('static', filename='images/make2.gif') }}" alt="make2" width="100px;">
+                <img src="{{ url_for('static', filename='images/make3.gif') }}" alt="make3" width="100px;">
+                <img src="{{ url_for('static', filename='images/make4.gif') }}" alt="make4" width="100px;">
+                <img src="{{ url_for('static', filename='images/make5.gif') }}" alt="make5" width="100px;"><br><br><br>
+                <img src="{{ url_for('static', filename='images/gallerymassage.gif') }}" alt="gallerymassage" width="100px;">
+                <img src="{{ url_for('static', filename='images/galleryspa.gif') }}" alt="galleryspa" width="100px;">
+                 <img src="{{ url_for('static', filename='images/spa5.gif') }}" alt="spa5" width="100px;">
+                 <img src="{{ url_for('static', filename='images/spa3.gif') }}" alt="spa3" width="100px;">
+                 <img src="{{ url_for('static', filename='images/spa4.gif') }}" alt="spa4" width="100px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 DE TOUCH Beauty Parlour. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

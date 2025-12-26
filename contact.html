@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DE TOUCH</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/flower.png') }}"  width="100px;">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+    <!-- Header -->
+    <header>
+  <div class="nav-container">
+
+    <div class="header-left">
+      <div class="header-logo">
+        <img src="{{ url_for('static', filename='images/flower.png') }}" alt="flower" width="200px;">
+      </div>
+
+      <div class="header-title">
+        <h1>DE TOUCH</h1>
+        <h3>ANNA POORANI MAKEOVER</h3>
+      </div>
+    </div>
+
+    <nav class="nav-links">
+      <a href="/">Home</a>
+      <a href="/services">Services</a>
+      <a href="/about">About</a>
+      <a href="/gallery">Gallery</a>
+      <a href="/contact">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Have questions or want to book an appointment? We’d love to hear from you!</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container contact-container">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h3>CONTACT INFORMATION</h3>
+                <p><strong>Address:</strong> NO.10 , Chinnamudaliyar Chavadi , ECR Kottakuppam , TamilNadu-605104</p>
+                <p><strong>Phone:</strong> +91 6385844487</p>
+                <p><strong>Instagram Page :</strong> @DE_TOUCH_POORANI</p>
+                <p><strong>Opening Hours:</strong> Mon-Sat 10:00 AM - 8:00 PM</p>
+            </div>
+            <a href="https://wa.me/916385844487?text=Hello%20De%20Touch%20Makeover"
+   class="whatsapp-btn" target="_blank">
+   Start Booking Through Whatsapp
+</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 DE TOUCH Beauty Parlour. All Rights Reserved.</p>
+        </div>
+    </footer>
+    </center>
+</body>
+</html>
